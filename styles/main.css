@@ -10,7 +10,6 @@
 
    width: 100%;
    height: 45px;
-   border: 1px solid black;
    background-color: rgba(52, 73, 94,0.2);
    
  
@@ -21,7 +20,7 @@
 
  .top-inner{
 
-    border: 1px solid red;
+
     height: 100%;
     display: flex;
  }
@@ -57,8 +56,56 @@
     color: white;
     font-size: 15px;
 
-    
 
+}
+
+
+.top-left > ul > li> span:hover {
+
+   cursor: pointer;
+   color: rgb(128, 142, 155);
+
+}
+
+
+.top-left>ul>span {
+
+
+    color: white;
+}
+
+
+.top-right{
+
+    display: flex;
+}
+
+
+.top-right > ul {
+
+    display:flex;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-end;
 
 
 }
+
+.top-right>ul>li{
+
+    padding: 8px;
+
+}
+
+
+
+
+.top-right>ul>li:hover{
+
+   cursor: pointer;
+   
+
+}
+
