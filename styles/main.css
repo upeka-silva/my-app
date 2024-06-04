@@ -67,14 +67,6 @@
 
 }
 
-
-.top-left>ul>span {
-
-
-    color: white;
-}
-
-
 .top-right{
 
     display: flex;
@@ -99,13 +91,48 @@
 
 }
 
-
-
-
 .top-right>ul>li:hover{
 
    cursor: pointer;
    
+
+}
+
+.nav-outer{
+
+    width: 100%;
+    height: 70px;
+    background-color: rgb(128, 142, 155,0.2);
+}
+
+.slider{
+
+    width: 100%;
+    height:100vh ;
+    overflow: hidden;
+    position: relative;
+    top: -115px;
+    z-index: -1;
+
+}
+
+.slid{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    left: 0;
+   
+}
+
+
+.slid.active{
+
+
+     opacity: 1;
+
 
 }
 
