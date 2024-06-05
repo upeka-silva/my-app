@@ -136,3 +136,47 @@
 
 }
 
+.box-outer{
+
+  width: 550px;
+  height: 450px;
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  margin: 170px 170px;
+
+
+
+}
+
+.one>p{
+  
+ text-transform: uppercase;
+ font-weight: 700px;
+ color: white;
+
+
+}
+.heading-para h1{
+
+
+ text-transform: uppercase;
+ color: white;
+ font-weight: 800px;
+
+
+}
+
+.solution-main-outer{
+
+
+ width: 100%;
+ height: auto;
+ border: 1px solid red;
+
+}
+
+.inner-wrap{
+    height: 350px;
+    border: 1px solid red;
+}
